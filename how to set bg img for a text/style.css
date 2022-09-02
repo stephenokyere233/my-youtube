@@ -1,0 +1,9 @@
+h1{
+
+background: url(https://images.pexels.com/photos/7422479/pexels-photo-7422479.jpeg?cs=srgb&dl=pexels-nothing-ahead-7422479.jpg&fm=jpg);
+background-size: contain;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+}

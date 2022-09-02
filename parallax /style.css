@@ -1,0 +1,33 @@
+ /* RESET STYLES */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 100px;
+    font-family: "DynaPuff",cursive;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: contain;
+   color: white;
+}
+#wrap1{
+    background-image: url(a.jpg);
+    background-attachment: fixed;
+
+}
+#wrap2{
+    background-image: url(b.jpg);
+
+}
+#wrap3{
+    background-image: url(c.jpg);
+    background-attachment: fixed;
+}
