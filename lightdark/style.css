@@ -1,0 +1,44 @@
+  /* DECLARING OUR CSS VARIABLES */
+:root{
+    --bg:white;
+    --text:#222;
+    --brand:blueviolet;
+}
+
+  /* ADDING A DARK CLASS FOR OUR DARK MODE TO WORK */
+  .dark{
+    --bg:#222;
+    --text:white;
+    
+  }
+
+  body{
+    background: var(--bg);
+    color: var(--text);
+    transition: 300ms ease-out;
+  }
+  .wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    border-radius: 9999px;
+    border: 4px solid;
+    font-size: 30px;
+    padding: 5px;
+    text-transform: capitalize;
+    display: flex;
+  }
+.container__label{
+    border-radius: 9999px;
+    cursor: pointer;
+    padding: 10px 12px;
+}
+.container__label--selected{
+    color: var(--text);
+    background: var(--brand);
+}
+
