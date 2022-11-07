@@ -10,13 +10,14 @@ body{
 
 .wrapper{
     height: 100%;
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 500ms;
 }
 h1{
-    font-size: 150px;
+    font-size: 100px;
     font-family: "DynaPuff",cursive;
     color: white;
 }
